@@ -103,7 +103,6 @@ public
 
 # Cloudflare specific
 .wrangler
-*.toml
 
 # IDE specific files
 .idea/

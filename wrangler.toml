@@ -1,0 +1,19 @@
+name               = "cloudflare-container-demo"
+main               = "worker.js"
+compatibility_date = "2025-06-27"
+account_id         = "ACCOUNT_ID"
+
+
+[[containers]]
+name          = "cloudflare-container-demo"
+class_name    = "CCContainer"
+image         = "./Dockerfile"
+max_instances = 10
+
+[[durable_objects.bindings]]
+name       = "CC_CONTAINER"
+class_name = "CCContainer"
+
+[[migrations]]
+tag                = "v1"
+new_sqlite_classes = ["CCContainer"]
