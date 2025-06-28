@@ -1,0 +1,67 @@
+# Git
+.git
+.gitignore
+
+# Node modules and dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+.next/
+.nuxt/
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local development
+*.local
+
+# Cloudflare specific
+.wrangler
+*.toml
+
+# Test and coverage directories
+coverage/
+.nyc_output/
+
+# Debug logs from npm
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
